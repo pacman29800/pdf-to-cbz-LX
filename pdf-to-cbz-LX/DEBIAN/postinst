@@ -1,0 +1,25 @@
+#!/bin/bash
+set -e
+
+# post-installation script for pdf-to-cbz-LX
+
+# Mise à jour base de données des icônes et menus (optionnel)
+if command -v update-desktop-database >/dev/null 2>&1; then
+    update-desktop-database >/dev/null 2>&1 || true
+fi
+
+if command -v gtk-update-icon-cache >/dev/null 2>&1; then
+    gtk-update-icon-cache -q /usr/share/icons/hicolor || true
+fi
+
+# Message de bienvenue
+cat <<EOF
+
+Le paquet pdf-to-cbz-LX a été installé avec succès !
+
+Tu peux lancer le script avec la commande : pdf-to-cbz-LX
+
+EOF
+
+exit 0
+

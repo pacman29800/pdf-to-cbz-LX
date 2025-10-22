@@ -1,0 +1,10 @@
+Package: pdf-to-cbz-LX
+Version: 1.0
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: dpmw (pacman29800) <noreply@github.com>
+Depends: yad, zip, poppler-utils
+Description: Convertisseur de PDF vers CBZ (bande dessinée)
+ Un outil simple pour convertir des fichiers PDF en CBZ à l'aide d'une interface graphique YAD.
+ Idéal pour les bandes dessinées. Ne dépend que d'outils standards et respecte la philosophie KISS.

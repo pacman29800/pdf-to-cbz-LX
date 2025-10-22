@@ -1,0 +1,18 @@
+
+#!/bin/bash
+set -e
+
+# postrm script for pdf-to-cbz-LX
+
+case "$1" in
+    remove)
+        # Le paquet vient d’être supprimé, mais la configuration est conservée
+        ;;
+    purge)
+        # Le paquet et la configuration sont complètement supprimés
+        # Nettoyage éventuel ici (fichiers de config, logs, etc.)
+        echo "Le paquet pdf-to-cbz-LX a été complètement supprimé."
+        ;;
+esac
+
+exit 0

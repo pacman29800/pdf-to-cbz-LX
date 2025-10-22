@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Conversion PDF → CBZ
+Comment=Convertit des fichiers PDF en CBZ (bande dessinée)
+Exec=/usr/local/bin/pdf-to-cbz-LX
+Icon=pdf-to-cbz-LX
+Terminal=false
+Categories=Utility;Graphics;
+Path=
+StartupNotify=false

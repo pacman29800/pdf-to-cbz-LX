@@ -1,0 +1,8 @@
+pdf-to-cbz - Convertisseur PDF vers CBZ
+
+This package provides a simple script with a GUI using yad and pdftoppm
+to convert PDF files to CBZ archives.
+
+For more information, see the upstream README file.
+
+Homepage: https://github.com/pacman29800/pdf-to-cbz-LX

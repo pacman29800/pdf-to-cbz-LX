@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+
+# prerm script for pdf-to-cbz-LX
+# Actions avant la suppression du paquet (vide ici)
+
+exit 0
